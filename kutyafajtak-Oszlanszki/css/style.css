@@ -1,6 +1,75 @@
-header {
-    position: relative;
-    height: 350px;
+/* Alapértelmezett háttér */
+body {
     background-image: url('../img/background/keith-misner-h0Vxgz5tyXA-unsplash.jpg');
-    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4d0808;
+}
+
+/* Kutyaoldal stílus */
+#kutyaoldal {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 70%;
+    /*  margin: 20px auto;*/
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    text-indent: 1cm;
+    text-align: left;
+}
+
+/* Főcím és alcímek */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+/* Vissza a kutyafajtákhoz link színe */
+a {
+    color: darkslategrey;
+}
+
+/* Kép formázása (minikep osztály) */
+.minikep {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    border: 3px solid #4d0808;
+}
+
+/* Képek formázása (kepek és kep osztály) */
+.kepek {
+    text-align: center;
+    clear: both;
+}
+
+.kep {
+    text-align: center;
+    clear: both; /*lebegtetés törlés*/
+    width: 280px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #4d0808;
+    box-shadow: 3px 3px 10px #4d0808;
+}
+
+/* Táblázat stílus */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, .row, .col {
+    border: 1px solid #4d0808;
+    padding: 0.5rem;
 }
